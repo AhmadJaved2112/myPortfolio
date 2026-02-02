@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <div className='absolute'>
-      <nav className='flex gap-3 md:gap-5 fixed bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-12.5 z-50 p-3 bg-white/40 backdrop-blur-xs rounded-lg border-2 border-gray-200'>
+      <nav className='flex gap-3 md:gap-5 fixed bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-12.5 z-50 p-3 bg-white/5 dark:bg-black/5 backdrop-blur-[2px] rounded-lg border border-[#E5E7EB] dark:border-[#3F3F46]'>
         {
           navLinks.map((item) => (
             <Link
@@ -47,7 +47,7 @@ const Header = () => {
               offset={50}
               duration={500}
               key={item.path}
-              className='flex flex-col items-center hover:text-orange-700 transition-all duration-300 cursor-pointer hover:scale-110'
+              className='flex flex-col items-center hover:text-orange-700 transition-all duration-300 cursor-pointer hover:scale-110 dark:text-white'
             >
               <span>{item.icon}</span>
               <p className='text-[14px]'>{item.lable}</p>

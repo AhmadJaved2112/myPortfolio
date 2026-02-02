@@ -4,10 +4,10 @@ import { FaArrowUp } from 'react-icons/fa'
 const Blogs = () => {
   return (
     <div id='blogs' className='py-10'>
-      <h1 className='text-[#181B26] text-5xl sm:text-7xl md:text-8xl xl:text-9xl uppercase font-extrabold leading-tight'>
+      <h1 className='text-[#181B26] dark:text-white text-5xl sm:text-7xl md:text-8xl xl:text-9xl uppercase font-extrabold leading-tight'>
         Latest {' '}
         <br />
-        <span className='bg-clip-text text-transparent bg-linear-to-r from-[#181B26] to-[#F37016]'>
+        <span className='bg-clip-text text-transparent bg-linear-to-r from-[#181B26] dark:from-white to-[#F37016]'>
           Blogs
         </span>
       </h1>
@@ -34,13 +34,13 @@ const Blogs = () => {
 
                 <div className='p-6 flex flex-col flex-1 justify-between'>
                   <div>
-                    <h3 className='text-2xl font-bold text-gray-800 mb-3'>{item.title}</h3>
-                    <p className='text-gray-600 text-base overflow-hidden mb-4 flex-1 line-clamp-3'>
+                    <h3 className='text-2xl font-bold text-gray-800 dark:text-white mb-3'>{item.title}</h3>
+                    <p className='text-gray-600 dark:text-[#A8A29E] text-base overflow-hidden mb-4 flex-1 line-clamp-3'>
                       {item.description}
                     </p>
                   </div>
 
-                  <div className='inline-flex items-center gap-2 text-orange-500 font-semibold mt-4 group-hover:underline transition-all'>
+                  <div className='inline-flex items-center gap-2 text-orange-500 dark:text-white font-semibold mt-4 group-hover:underline transition-all dark:hover:text-orange-500'>
                     Read More 
                     <FaArrowUp className='w-4 h-4 transform rotate-45 translate-y-0.5 transition-transform' />
                   </div>

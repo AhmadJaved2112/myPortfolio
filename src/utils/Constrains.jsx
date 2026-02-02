@@ -6,9 +6,9 @@ import Crypto_Tracker from '../assets/Crypto_Tracker.png';
 import { FaHtml5, FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill, RiReactjsFill } from "react-icons/ri";
-import { CiLocationOn } from "react-icons/ci";
 import { FaEnvelope } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
+import { FaLocationDot } from 'react-icons/fa6';
 
 export const Personal = {
   Profile: Profile,
@@ -98,8 +98,8 @@ export const Project = [
     image: Portfolio,
     title: 'Portfolio',
     description: 'A sleek, responsive digital showcase of my skills and projects, built with modern web technologies to highlight my expertise in frontend development with clean design and optimal performance.',
-    code: '',
-    demo: ''
+    code: 'https://github.com/AhmadJaved2112/myPortfolio',
+    demo: 'https://my-portfolio-nine-ivory-43.vercel.app/'
   }
 ]
 
@@ -129,7 +129,7 @@ export const Blog = [
 export const Location = [
   {
     id: 1,
-    icon: <CiLocationOn />,
+    icon: <FaLocationDot />,
     label: 'Address',
     place: 'Model Town B, Street No 9, near Sada-e-Pakistan, House # 179A'
   },

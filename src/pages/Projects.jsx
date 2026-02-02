@@ -8,9 +8,9 @@ const Projects = () => {
   return (
 
     <div id='projects'>
-      <h1 className='text-[#181B26] text-5xl sm:text-7xl md:text-8xl xl:text-9xl uppercase font-extrabold leading-slung' >
+      <h1 className='text-[#181B26] dark:text-white text-5xl sm:text-7xl md:text-8xl xl:text-9xl uppercase font-extrabold leading-slung' >
         RECENT {' '} <br />
-        <span className='bg-clip-text text-transparent bg-linear-to-r from-[#181B26] to-[#F37016]'>
+        <span className='bg-clip-text text-transparent bg-linear-to-r from-[#181B26] dark:from-white to-[#F37016]'>
           PROJECTS
         </span>
       </h1 >
@@ -19,7 +19,7 @@ const Projects = () => {
       <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10'>
         {
           Project.map((item) => (
-            <div key={item.id} className='group relative bg-card-bg border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:border-gray-300'>
+            <div key={item.id} className='group relative bg-card-bg border border-gray-300 dark:border-[#3F3F46] rounded-lg overflow-hidden transition-all duration-300 hover:border-gray-300'>
 
               <div className='relative aspect-video overflow-hidden'>
                 <img src={item.image} alt={item.title} className='w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 ' loading='lazy' />
@@ -34,10 +34,10 @@ const Projects = () => {
               <div className='p-4'>
 
                 <div className='mb-2'>
-                  <h3 className='text-2xl font-bold text-text'>{item.title}</h3>
+                  <h3 className='dark:text-white text-2xl font-bold text-text'>{item.title}</h3>
                 </div>
 
-                <p className='text-text-gray-700 text-sm line-clamp-3'>{item.description}</p>
+                <p className='text-text-gray-700 dark:text-[#A8A29E] text-sm line-clamp-3'>{item.description}</p>
 
               </div>
 

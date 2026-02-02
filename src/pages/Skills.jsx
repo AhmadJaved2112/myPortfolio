@@ -4,9 +4,9 @@ import { Skill } from '../utils/Constrains.jsx'
 const Skills = () => {
   return (
     <div id='skills' className='py-10'>
-      <h1 className='text-[#181B26] text-5xl sm:text-7xl md:text-8xl xl:text-9xl uppercase font-extrabold leading-slung' >
+      <h1 className='text-[#181B26] dark:text-white text-5xl sm:text-7xl md:text-8xl xl:text-9xl uppercase font-extrabold leading-slung' >
         THINGS I'M {' '} <br />
-        <span className='bg-clip-text text-transparent bg-linear-to-r from-[#181B26] to-[#F37016]'>
+        <span className='bg-clip-text text-transparent bg-linear-to-r from-[#181B26] dark:from-white to-[#F37016]'>
           GREAT AT
         </span>
       </h1 >
@@ -20,7 +20,7 @@ const Skills = () => {
               className='cursor-pointer group hover:scale-[1.02] transition-transform duration-300'
             >
 
-              <div className='relative w-full border border-gray-300 rounded-lg flex flex-col items-start justify-start gap-3 p-6 overflow-hidden bg-transparent shadow-lg hover:shadow-xl transition-all duration-300'>
+              <div className='relative w-full border border-transparent dark:border-[#3F3F46] rounded-lg flex flex-col items-start justify-start gap-3 p-6 overflow-hidden bg-transparent shadow-lg hover:shadow-xl transition-all duration-300'>
 
 
                 <span
@@ -35,7 +35,7 @@ const Skills = () => {
                     {item.icon}
                   </div>
                   <div>
-                    <h4 className='text-gray-800 text-xl font-bold'>{item.title}</h4>
+                    <h4 className='text-gray-800 dark:text-white text-xl font-bold'>{item.title}</h4>
                     <span className={`font-semibold text-xs px-3 py-1 rounded-full bg-linear-to-r from-green-500 to-green-700 text-white`}>
                       {item.level}
                     </span>
@@ -43,7 +43,7 @@ const Skills = () => {
                 </div>
 
 
-                <p className='text-gray-600 text-sm mt-2 line-clamp-3'>{item.description}</p>
+                <p className='text-gray-600 dark:text-[#A8A29E] text-sm mt-2 line-clamp-3'>{item.description}</p>
 
 
                 <div className='mt-4'>
@@ -51,7 +51,7 @@ const Skills = () => {
                   href={item.link}
                     target='_blank'
                     rel='noopener noreferrer'
-                  className='inline-flex items-center gap-2 text-orange-500 font-semibold mt-4 group-hover:underline transition-all'>
+                  className='inline-flex items-center gap-2 text-orange-500 dark:text-white font-semibold mt-4 group-hover:underline transition-all dark:hover:text-orange-500'>
                     Read More 
                     <FaArrowUp className='w-4 h-4 transform rotate-45 translate-y-0.5 transition-transform' />
                   </a>
