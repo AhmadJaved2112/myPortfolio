@@ -108,7 +108,7 @@ export const Project = [
     title: 'Hnd Movies',
     description: 'A sleek, responsive digital showcase of my skills and projects, built with modern web technologies to highlight my expertise in frontend development with clean design and optimal performance.',
     code: 'https://github.com/AhmadJaved2112/hnd-movies',
-    demo: 'https://my-portfolio-nine-ivory-43.vercel.app/'
+    demo: 'https://hnd-movies.vercel.app/'
   },
 ]
 
