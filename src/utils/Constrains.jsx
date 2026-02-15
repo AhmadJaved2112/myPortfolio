@@ -2,6 +2,7 @@ import Profile from '../assets/profile.png';
 import Logo from '../assets/logo.png';
 import Blogify from '../assets/Blogify.png';
 import Portfolio from '../assets/Portfolio.png';
+import hndMovies from '../assets/hndMovies.png';
 import Crypto_Tracker from '../assets/Crypto_Tracker.png';
 import { FaHtml5, FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
@@ -100,7 +101,15 @@ export const Project = [
     description: 'A sleek, responsive digital showcase of my skills and projects, built with modern web technologies to highlight my expertise in frontend development with clean design and optimal performance.',
     code: 'https://github.com/AhmadJaved2112/myPortfolio',
     demo: 'https://my-portfolio-nine-ivory-43.vercel.app/'
-  }
+  },
+  {
+    id: 4,
+    image: hndMovies,
+    title: 'Hnd Movies',
+    description: 'A sleek, responsive digital showcase of my skills and projects, built with modern web technologies to highlight my expertise in frontend development with clean design and optimal performance.',
+    code: 'https://github.com/AhmadJaved2112/hnd-movies',
+    demo: 'https://my-portfolio-nine-ivory-43.vercel.app/'
+  },
 ]
 
 
