@@ -106,7 +106,7 @@ export const Project = [
     id: 4,
     image: hndMovies,
     title: 'Hnd Movies',
-    description: 'A sleek, responsive digital showcase of my skills and projects, built with modern web technologies to highlight my expertise in frontend development with clean design and optimal performance.',
+    description: 'A feature-rich movie discovery platform that lets users explore trending, popular, and top-rated films. Built with React and TMDB API, featuring search functionality, movie details, and responsive design for seamless browsing.',
     code: 'https://github.com/AhmadJaved2112/hnd-movies',
     demo: 'https://hnd-movies.vercel.app/'
   },

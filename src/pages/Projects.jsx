@@ -16,7 +16,7 @@ const Projects = () => {
       </h1 >
 
       {/* Projects Section */}
-      <div className='grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10'>
         {
           Project.map((item) => (
             <div key={item.id} className='group relative bg-card-bg border border-gray-300 dark:border-[#3F3F46] rounded-lg overflow-hidden transition-all duration-300 hover:border-gray-300'>
